@@ -15,6 +15,7 @@ A command-line tool that extracts a random frame from a specified video, or a ra
 
 ## Command Line
 ```WallpaperFromVideo.exe [input-path] [search-depth] [path-to-ffmpeg]```
+
 Run the program with 1, 2, or all 3 arguments in order:
 1. [input-path] The video file or folder containing video files to extract a random image from.
 2. [search-depth] If a folder is provided for input, the search depth.
@@ -39,7 +40,7 @@ WallpaperFromVideo.exe "C:\path\to\folder" 3
 ```
 WallpaperFromVideo.exe "C:\path\to\folder" 1 "C:\path\to\ffmpeg.exe"
 ```
-## Launch with a click
+## Launch with a Click
 - An example .bat file is included and must be edited to be used.
 - A shortcut file can also be used by adding the launch options to its Target field.
 
